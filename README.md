@@ -12,4 +12,4 @@ Please follow the steps below to get this site set up for local development.
 3. `npm install`
 4. `ng serve --open`
 
-Application should open up in `http://localhost:4200/`. 
+Application will open here `http://localhost:4200/`. 
