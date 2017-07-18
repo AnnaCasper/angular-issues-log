@@ -8,7 +8,8 @@ Built with Angular2, Typescript, Bootstrap.
 Please follow the steps below to get this site set up for local development.
 
 1. `git clone git@github.com:AnnaCasper/angular-issues-log.git`
-2. `npm install`
-3. `ng serve --open`
+2. `cd angular-issues-log`
+3. `npm install`
+4. `ng serve --open`
 
 Application should open up in `http://localhost:4200/`. 
