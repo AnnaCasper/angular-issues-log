@@ -1,0 +1,1716 @@
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Tue, 18 Jul 2017 22:53:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 130756
+Status: 200 OK
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 15
+X-RateLimit-Reset: 1500419555
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept
+ETag: "d9a6dd5cdea96352a099bb1098aa608f"
+X-GitHub-Media-Type: github.v3; format=json
+Link: <https://api.github.com/repositories/24195339/issues?q=created&page=2>; rel="next", <https://api.github.com/repositories/24195339/issues?q=created&page=60>; rel="last"
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-Runtime-rack: 0.165088
+X-GitHub-Request-Id: AE47:672E:D54991:1EE0EE1:596E9182
+
+[
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18216",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18216/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18216/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18216/events",
+    "html_url": "https://github.com/angular/angular/pull/18216",
+    "id": 243871402,
+    "number": 18216,
+    "title": "fix(animations): make sure @.disabled works in non-animation components",
+    "user": {
+      "login": "matsko",
+      "id": 93018,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/93018?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matsko",
+      "html_url": "https://github.com/matsko",
+      "followers_url": "https://api.github.com/users/matsko/followers",
+      "following_url": "https://api.github.com/users/matsko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matsko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matsko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matsko/subscriptions",
+      "organizations_url": "https://api.github.com/users/matsko/orgs",
+      "repos_url": "https://api.github.com/users/matsko/repos",
+      "events_url": "https://api.github.com/users/matsko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matsko/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 149476251,
+        "url": "https://api.github.com/repos/angular/angular/labels/cla:%20yes",
+        "name": "cla: yes",
+        "color": "009800",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-07-18T22:35:26Z",
+    "updated_at": "2017-07-18T22:43:59Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/angular/angular/pulls/18216",
+      "html_url": "https://github.com/angular/angular/pull/18216",
+      "diff_url": "https://github.com/angular/angular/pull/18216.diff",
+      "patch_url": "https://github.com/angular/angular/pull/18216.patch"
+    },
+    "body": "Note 5.x and 4.3 only!\r\n\r\nPrior to this fix when [@.disabled] was used in a component that\r\ncontained zero animation code it wouldn't register properly because the\r\nrenderer associated with that component was not an animation renderer.\r\nThis patch ensures that it gets registered even when there are no\r\nanimations set.\r\n\r\n## PR Checklist\r\nPlease check if your PR fulfills the following requirements:\r\n\r\n- [ ] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit\r\n- [ ] Tests for the changes have been added (for bug fixes / features)\r\n- [ ] Docs have been added / updated (for bug fixes / features)\r\n\r\n\r\n## PR Type\r\nWhat kind of change does this PR introduce?\r\n\r\n<!-- Please check the one that applies to this PR using \"x\". -->\r\n```\r\n[ ] Bugfix\r\n[ ] Feature\r\n[ ] Code style update (formatting, local variables)\r\n[ ] Refactoring (no functional changes, no api changes)\r\n[ ] Build related changes\r\n[ ] CI related changes\r\n[ ] Documentation content changes\r\n[ ] angular.io application / infrastructure changes\r\n[ ] Other... Please describe:\r\n```\r\n\r\n## What is the current behavior?\r\n<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->\r\n\r\nIssue Number: N/A\r\n\r\n\r\n## What is the new behavior?\r\n\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[ ] No\r\n```\r\n\r\n<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->\r\n\r\n\r\n## Other information\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18214",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18214/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18214/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18214/events",
+    "html_url": "https://github.com/angular/angular/issues/18214",
+    "id": 243839186,
+    "number": 18214,
+    "title": "router.resetConfig() exception: Invalid configuration of route ''",
+    "user": {
+      "login": "GuyShaanan",
+      "id": 7248108,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7248108?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GuyShaanan",
+      "html_url": "https://github.com/GuyShaanan",
+      "followers_url": "https://api.github.com/users/GuyShaanan/followers",
+      "following_url": "https://api.github.com/users/GuyShaanan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GuyShaanan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GuyShaanan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GuyShaanan/subscriptions",
+      "organizations_url": "https://api.github.com/users/GuyShaanan/orgs",
+      "repos_url": "https://api.github.com/users/GuyShaanan/repos",
+      "events_url": "https://api.github.com/users/GuyShaanan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GuyShaanan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-18T20:20:51Z",
+    "updated_at": "2017-07-18T20:20:51Z",
+    "closed_at": null,
+    "body": "## I'm submitting a...\r\n<pre><code>[x] Bug report</code></pre>\r\n\r\n## Current behavior\r\nUsing router.resetConfig() on versions > 4.1.3 and passing an empty route (`{path: '', component: HomeComponent}`) an exception is thrown in AOT:\r\n\r\n![image](https://user-images.githubusercontent.com/7248108/28336437-9bc2f5ec-6c0a-11e7-869b-48ceb4723da7.png)\r\n\r\nAnd somehow the component is undefined:\r\n![image](https://user-images.githubusercontent.com/7248108/28336658-805ccd2c-6c0b-11e7-889b-52cd18ba1997.png)\r\n\r\n\r\n## Expected behavior\r\nOn versions <= 4.1.3 everything works.\r\nNo exception is thrown, and component is not undefined:\r\n![image](https://user-images.githubusercontent.com/7248108/28336888-4bb04bde-6c0c-11e7-8eba-c5df00b94974.png)\r\n\r\n\r\n## Minimal reproduction of the problem with instructions\r\n```\r\ngit clone https://github.com/GuyShaanan/_router-config-repro.git\r\ncd _router-config-repro\r\nnpm install\r\nnpm run start\r\n```\r\nObserve exceptions in console and that component is undefined.\r\n\r\nNow change all 4.2.3 versions to 4.1.3 in package.json:\r\n```\r\nsed -i 's/4.2.3/4.1.3/' package.json\r\nrm -rf node_modules/@angular\r\nnpm install\r\nnpm run start\r\n```\r\nObserve no exception is thrown, and component is not undefined.\r\n\r\n## What is the motivation / use case for changing the behavior?\r\nOf course this is a small repro. The exception thrown in the real application actually breaks further navigation.\r\n\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version > 4.1.3\r\nAOT\r\n\r\nBrowser:\r\n- [x] Chrome (desktop) version 59\r\n \r\nFor Tooling issues:\r\n- Node version: 6.10.3\r\n- Platform:  Linux\r\n</code></pre>\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18211",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18211/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18211/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18211/events",
+    "html_url": "https://github.com/angular/angular/pull/18211",
+    "id": 243829688,
+    "number": 18211,
+    "title": "aio: fix typo in NgModule FAQs",
+    "user": {
+      "login": "ThaneshR",
+      "id": 7763181,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7763181?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ThaneshR",
+      "html_url": "https://github.com/ThaneshR",
+      "followers_url": "https://api.github.com/users/ThaneshR/followers",
+      "following_url": "https://api.github.com/users/ThaneshR/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ThaneshR/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ThaneshR/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ThaneshR/subscriptions",
+      "organizations_url": "https://api.github.com/users/ThaneshR/orgs",
+      "repos_url": "https://api.github.com/users/ThaneshR/repos",
+      "events_url": "https://api.github.com/users/ThaneshR/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ThaneshR/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 149476251,
+        "url": "https://api.github.com/repos/angular/angular/labels/cla:%20yes",
+        "name": "cla: yes",
+        "color": "009800",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-07-18T19:44:45Z",
+    "updated_at": "2017-07-18T20:50:49Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/angular/angular/pulls/18211",
+      "html_url": "https://github.com/angular/angular/pull/18211",
+      "diff_url": "https://github.com/angular/angular/pull/18211.diff",
+      "patch_url": "https://github.com/angular/angular/pull/18211.patch"
+    },
+    "body": "Fix #18133. Fix typo 'added' to 'add' in the 'Why does lazy loading create a child injector' section.\r\n\r\n## PR Type\r\nWhat kind of change does this PR introduce?\r\n<!-- Please check the one that applies to this PR using \"x\". -->\r\n```\r\n[ ] Bugfix\r\n[ ] Feature\r\n[ ] Code style update (formatting, local variables)\r\n[ ] Refactoring (no functional changes, no api changes)\r\n[ ] Build related changes\r\n[ ] CI related changes\r\n[x] Documentation content changes\r\n[ ] angular.io application / infrastructure changes\r\n[ ] Other... Please describe:\r\n```\r\n\r\n## What is the current behavior?\r\nIn https://angular.io/guide/ngmodule-faq#why-does-lazy-loading-create-a-child-injector. The second sentence of the last paragraph begins with.\r\n\r\n> It can't added them to the app root injector ...\r\n\r\nBold emphasis is added by me to highlight the typo.\r\n\r\nIssue Number: #18133\r\n\r\n\r\n## What is the new behavior?\r\nIt should be\r\n\r\n> It can't add them to the app root injector ...\r\n\r\nBold emphasis is added by me to highlight the typo.\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[x] No\r\n```\r\n\r\n<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->\r\n\r\n\r\n## Other information\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18209",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18209/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18209/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18209/events",
+    "html_url": "https://github.com/angular/angular/pull/18209",
+    "id": 243801065,
+    "number": 18209,
+    "title": "fix(upgrade): ensure downgraded components are created in the Angular zone",
+    "user": {
+      "login": "gkalpak",
+      "id": 8604205,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8604205?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gkalpak",
+      "html_url": "https://github.com/gkalpak",
+      "followers_url": "https://api.github.com/users/gkalpak/followers",
+      "following_url": "https://api.github.com/users/gkalpak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gkalpak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gkalpak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gkalpak/subscriptions",
+      "organizations_url": "https://api.github.com/users/gkalpak/orgs",
+      "repos_url": "https://api.github.com/users/gkalpak/repos",
+      "events_url": "https://api.github.com/users/gkalpak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gkalpak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 149476251,
+        "url": "https://api.github.com/repos/angular/angular/labels/cla:%20yes",
+        "name": "cla: yes",
+        "color": "009800",
+        "default": false
+      },
+      {
+        "id": 488329172,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20upgrade/static",
+        "name": "comp: upgrade/static",
+        "color": "c5def5",
+        "default": false
+      },
+      {
+        "id": 217969169,
+        "url": "https://api.github.com/repos/angular/angular/labels/pr_action:%20review",
+        "name": "pr_action: review",
+        "color": "fbca04",
+        "default": false
+      },
+      {
+        "id": 130606843,
+        "url": "https://api.github.com/repos/angular/angular/labels/type:%20bug",
+        "name": "type: bug",
+        "color": "EEEEEE",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-07-18T18:01:03Z",
+    "updated_at": "2017-07-18T22:21:57Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/angular/angular/pulls/18209",
+      "html_url": "https://github.com/angular/angular/pull/18209",
+      "diff_url": "https://github.com/angular/angular/pull/18209.diff",
+      "patch_url": "https://github.com/angular/angular/pull/18209.patch"
+    },
+    "body": "## PR Checklist\r\nPlease check if your PR fulfills the following requirements:\r\n\r\n- [x] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit\r\n- [x] Tests for the changes have been added (for bug fixes / features)\r\n- [ ] ~~Docs have been added / updated (for bug fixes / features)~~\r\n\r\n\r\n## PR Type\r\nWhat kind of change does this PR introduce?\r\n\r\n<!-- Please check the one that applies to this PR using \"x\". -->\r\n```\r\n[x] Bugfix\r\n[ ] Feature\r\n[ ] Code style update (formatting, local variables)\r\n[ ] Refactoring (no functional changes, no api changes)\r\n[ ] Build related changes\r\n[ ] CI related changes\r\n[ ] Documentation content changes\r\n[ ] angular.io application / infrastructure changes\r\n[ ] Other... Please describe:\r\n```\r\n\r\n## What is the current behavior?\r\n<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->\r\nWhen using `downgradeModule()` from `@angular/upgrade/static`, the Angular component is not created inside the Angular zone.\r\n\r\nIssue Number: N/A\r\n\r\n\r\n## What is the new behavior?\r\nThe Angular component is created inside the Angular zone.\r\n\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[x] No\r\n```\r\n\r\n<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->\r\n\r\n\r\n## Other information\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18208",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18208/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18208/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18208/events",
+    "html_url": "https://github.com/angular/angular/issues/18208",
+    "id": 243795405,
+    "number": 18208,
+    "title": "Missing animation triggers should report a better warning",
+    "user": {
+      "login": "matsko",
+      "id": 93018,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/93018?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matsko",
+      "html_url": "https://github.com/matsko",
+      "followers_url": "https://api.github.com/users/matsko/followers",
+      "following_url": "https://api.github.com/users/matsko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matsko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matsko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matsko/subscriptions",
+      "organizations_url": "https://api.github.com/users/matsko/orgs",
+      "repos_url": "https://api.github.com/users/matsko/repos",
+      "events_url": "https://api.github.com/users/matsko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matsko/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 217956517,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20animations",
+        "name": "comp: animations",
+        "color": "c7def8",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-18T17:40:51Z",
+    "updated_at": "2017-07-18T17:40:56Z",
+    "closed_at": null,
+    "body": ""
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18207",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18207/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18207/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18207/events",
+    "html_url": "https://github.com/angular/angular/issues/18207",
+    "id": 243787414,
+    "number": 18207,
+    "title": "Entry component scan reports enum references in route data as an internal error.",
+    "user": {
+      "login": "chuckjaz",
+      "id": 372013,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/372013?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chuckjaz",
+      "html_url": "https://github.com/chuckjaz",
+      "followers_url": "https://api.github.com/users/chuckjaz/followers",
+      "following_url": "https://api.github.com/users/chuckjaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chuckjaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chuckjaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chuckjaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/chuckjaz/orgs",
+      "repos_url": "https://api.github.com/users/chuckjaz/repos",
+      "events_url": "https://api.github.com/users/chuckjaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chuckjaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 375501288,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20core%20&%20compiler",
+        "name": "comp: core & compiler",
+        "color": "c7def8",
+        "default": false
+      },
+      {
+        "id": 130606843,
+        "url": "https://api.github.com/repos/angular/angular/labels/type:%20bug",
+        "name": "type: bug",
+        "color": "EEEEEE",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-18T17:10:57Z",
+    "updated_at": "2017-07-18T19:36:40Z",
+    "closed_at": null,
+    "body": "## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n</code></pre>\r\n\r\n## Current behavior\r\n\r\nIf an enum reference is included in the metadata, in a route, for example, the compiler will report an internal error.\r\n\r\n## Expected behavior\r\n\r\nThis should compile correctly.\r\n\r\n## Minimal reproduction of the problem with instructions\r\n\r\nIn a `ng new` application add the following to `app.module.ts`'s `@NgModule` imports:\r\n\r\n```ts\r\n    RouterModule.forRoot([{\r\n      path: 'somePath',\r\n      component: AppComponent,\r\n      data: {\r\n        value: SomeEnum.SOME_VALUE1\r\n      }\r\n    }]),\r\n```\r\n\r\nwhere `SomeEnum` is imported from another module.\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18206",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18206/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18206/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18206/events",
+    "html_url": "https://github.com/angular/angular/issues/18206",
+    "id": 243759867,
+    "number": 18206,
+    "title": "The [disabled] binding does not work for multiple radio inputs",
+    "user": {
+      "login": "IEvangelist",
+      "id": 7679720,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7679720?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/IEvangelist",
+      "html_url": "https://github.com/IEvangelist",
+      "followers_url": "https://api.github.com/users/IEvangelist/followers",
+      "following_url": "https://api.github.com/users/IEvangelist/following{/other_user}",
+      "gists_url": "https://api.github.com/users/IEvangelist/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/IEvangelist/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/IEvangelist/subscriptions",
+      "organizations_url": "https://api.github.com/users/IEvangelist/orgs",
+      "repos_url": "https://api.github.com/users/IEvangelist/repos",
+      "events_url": "https://api.github.com/users/IEvangelist/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/IEvangelist/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 393879365,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20forms",
+        "name": "comp: forms",
+        "color": "c5def5",
+        "default": false
+      },
+      {
+        "id": 130606843,
+        "url": "https://api.github.com/repos/angular/angular/labels/type:%20bug",
+        "name": "type: bug",
+        "color": "EEEEEE",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+      "login": "kara",
+      "id": 3871688,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3871688?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kara",
+      "html_url": "https://github.com/kara",
+      "followers_url": "https://api.github.com/users/kara/followers",
+      "following_url": "https://api.github.com/users/kara/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kara/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kara/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kara/subscriptions",
+      "organizations_url": "https://api.github.com/users/kara/orgs",
+      "repos_url": "https://api.github.com/users/kara/repos",
+      "events_url": "https://api.github.com/users/kara/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kara/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "kara",
+        "id": 3871688,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/3871688?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kara",
+        "html_url": "https://github.com/kara",
+        "followers_url": "https://api.github.com/users/kara/followers",
+        "following_url": "https://api.github.com/users/kara/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kara/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kara/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kara/subscriptions",
+        "organizations_url": "https://api.github.com/users/kara/orgs",
+        "repos_url": "https://api.github.com/users/kara/repos",
+        "events_url": "https://api.github.com/users/kara/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kara/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-18T15:37:30Z",
+    "updated_at": "2017-07-18T19:37:11Z",
+    "closed_at": null,
+    "body": "<!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\nWhen utilizing the `ngModel` directive to bind to several `<input type=\"radio\">` elements in a group, the `[disabled]` property is only honored for the first radio input element occurrence. For example, if we build out a template with a collection of options, binding values to each element - the first input element correctly honors the disabled value - whereas all remaining input elements do not. As a result of this a user can actually change the value by selecting a different option, as they are incorrectly enabled.\r\n\r\nThe issue is clearly demonstrated as part of this <kbd>[Plunker](https://plnkr.co/edit/Qpz9exOxFSP6aFHMiAh7?p=preview)</kbd>.\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\nCurrently if I am to bind to `[attr.disabled]` instead, this works correctly. However, I would expect that the `[disabled]` property binding would honor the disabled value for all inputs that are bound to it. \r\n\r\n## Minimal reproduction of the problem with instructions\r\n\r\nhttps://plnkr.co/edit/Qpz9exOxFSP6aFHMiAh7?p=preview\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\nThe motivation to fix this bug is that the documentation specifically instructs consumers of **angular** to use the `[disabled]` property binding to leverage its consistency and that the value matters.\r\n\r\n> Adding and removing the disabled attribute disables and enables the button. The value of the attribute is irrelevant, which is why you cannot enable a button by writing \\<button disabled=\"false\"\\>Still Disabled\\<\\/button\\>.\r\nSetting the button's disabled property (say, with an Angular binding) disables or enables the button. The value of the property matters. \r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version range: 2.0.0-4.3.0\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [x] Chrome (desktop) version 59.0.3071.115\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [x] Firefox version 53.0.3\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [x] IE version 11.0.9600.18697\r\n- [ ] Edge version XX\r\n \r\nFor Tooling issues:\r\n- Node version: XX  <!-- run `node --version` -->\r\n- Platform:  <!-- Mac, Linux, Windows -->\r\n\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\n</code></pre>\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18204",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18204/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18204/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18204/events",
+    "html_url": "https://github.com/angular/angular/issues/18204",
+    "id": 243714507,
+    "number": 18204,
+    "title": "[min] and [max] pipes doesn't work",
+    "user": {
+      "login": "vadjs",
+      "id": 10026333,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10026333?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vadjs",
+      "html_url": "https://github.com/vadjs",
+      "followers_url": "https://api.github.com/users/vadjs/followers",
+      "following_url": "https://api.github.com/users/vadjs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vadjs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vadjs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vadjs/subscriptions",
+      "organizations_url": "https://api.github.com/users/vadjs/orgs",
+      "repos_url": "https://api.github.com/users/vadjs/repos",
+      "events_url": "https://api.github.com/users/vadjs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vadjs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2017-07-18T13:25:01Z",
+    "updated_at": "2017-07-18T13:37:29Z",
+    "closed_at": null,
+    "body": "<!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\nLooks like [min] and [max] pipes not working now.\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\nUsing min and max attributes should add validators for Angular forms.\r\n\r\n## Minimal reproduction of the problem with instructions\r\n<!--\r\nFor bug reports please provide the *STEPS TO REPRODUCE* and if possible a *MINIMAL DEMO* of the problem via\r\nhttps://plnkr.co or similar (you can use this template as a starting point: http://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5).\r\n-->\r\nhttps://plnkr.co/edit/MfUJ7wbLsaDT7uOYgD1e?p=preview - here is modified example form that have min/max validators that doen't work.\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\nFix non-working code.\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.3.0\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- ALL\r\n- [x] Chrome (desktop) version XX\r\n- [x] Chrome (Android) version XX\r\n- [x] Chrome (iOS) version XX\r\n- [x] Firefox version XX\r\n- [x] Safari (desktop) version XX\r\n- [x] Safari (iOS) version XX\r\n- [x] IE version XX\r\n- [x] Edge version XX\r\n \r\nFor Tooling issues:\r\n- Node version: 8.1.3  <!-- run `node --version` -->\r\n- Platform:  Windows\r\n\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\n</code></pre>\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18203",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18203/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18203/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18203/events",
+    "html_url": "https://github.com/angular/angular/issues/18203",
+    "id": 243688505,
+    "number": 18203,
+    "title": "Classic inheritance, Child component doesn't update Parent Property . Even with ChangeDetectorRef",
+    "user": {
+      "login": "titusfx",
+      "id": 1366004,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1366004?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/titusfx",
+      "html_url": "https://github.com/titusfx",
+      "followers_url": "https://api.github.com/users/titusfx/followers",
+      "following_url": "https://api.github.com/users/titusfx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/titusfx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/titusfx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/titusfx/subscriptions",
+      "organizations_url": "https://api.github.com/users/titusfx/orgs",
+      "repos_url": "https://api.github.com/users/titusfx/repos",
+      "events_url": "https://api.github.com/users/titusfx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/titusfx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 375501288,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20core%20&%20compiler",
+        "name": "comp: core & compiler",
+        "color": "c7def8",
+        "default": false
+      },
+      {
+        "id": 130606843,
+        "url": "https://api.github.com/repos/angular/angular/labels/type:%20bug",
+        "name": "type: bug",
+        "color": "EEEEEE",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-07-18T11:45:41Z",
+    "updated_at": "2017-07-18T19:54:00Z",
+    "closed_at": null,
+    "body": "<!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[x ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\nClassic inheritance, Child component doesn't update Parent Property . Even with ChangeDetectorRef\r\n\r\nI have a Parent component with an input radio and the checked property is associated with a member variable isActivated.\r\n\r\nIn the child component on click event I do: this.isActivated =!this.isActivated and it doesn't change the checked. If I implement the same thing in the Parents works.\r\n\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\n\r\nIt should checked and unchecked the parent input radio\r\n\r\n## Minimal reproduction of the problem with instructions\r\n<!--\r\nFor bug reports please provide the *STEPS TO REPRODUCE* and if possible a *MINIMAL DEMO* of the problem via\r\nhttps://plnkr.co or similar (you can use this template as a starting point: http://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5).\r\n-->\r\nI tryed to do it on plunker but It throw another error ( in my version it doesn't throw an error )\r\nhttps://plnkr.co/edit/gLkdo73OHuOVr8TnnJZm?p=info\r\n\r\nFILE: nav-item.ts\r\n\r\nimport { Component, OnInit, Input, Output } from '@angular/core';\r\n@Component({\r\n  selector: 'nav-item',\r\n  template: ` \r\n  <input type=\"radio\" [checked]=\"isActivated\" />\r\n  `,\r\n})\r\nexport class NavItemComponent implements OnInit {\r\n  @Input('activated') isActivated = false;\r\n  ngOnInit(){\r\n    \r\n  }\r\n}\r\n@Component({\r\n  selector: 'nav-item-child',\r\n  template: ``,\r\n})\r\nexport class NavItemChildComponent extends NavItemComponent implements OnInit {\r\n  ngOnInit(){\r\n  }\r\n}\r\n\r\nFILE: app.ts\r\n\r\n//our root app component\r\nimport {Component, NgModule, VERSION} from '@angular/core'\r\nimport {BrowserModule} from '@angular/platform-browser'\r\nimport { NavItemComponent, NavItemChildComponent} from './nav-item.ts'\r\n\r\n@Component({\r\n  selector: 'my-app',\r\n  template: `\r\n    <nav-item-child (click)=\"activateItem($event)\"></nav-item-child>\r\n\r\n  `,\r\n})\r\nexport class App {\r\n  \r\n    activateItem(event){\r\n    this.isActivated = !this.isActivated ;\r\n    \r\n    //this.detector.detectChanges();\r\n\r\n  }\r\n}\r\n\r\n@NgModule({\r\n  imports: [ BrowserModule ],\r\n  declarations: [ App,\r\n   NavItemComponent, \r\n   NavItemChildComponent],\r\n  bootstrap: [ App ]\r\n})\r\nexport class AppModule {}\r\n\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\nI have a nav-item ( general one ) and I want to every component that inherit from it can behave like it and more ( classical inheritance )\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4\r\n  \"@angular/core\": \"^4.0.0\",\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [x ] Chrome (desktop) version XX\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n \r\nFor Tooling issues:\r\n- Node version: XX  <!-- run `node --version` -->\r\nv6.11.0\r\n- Platform:  <!-- Mac, Linux, Windows -->\r\nLinux\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\n</code></pre>\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18197",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18197/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18197/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18197/events",
+    "html_url": "https://github.com/angular/angular/pull/18197",
+    "id": 243575470,
+    "number": 18197,
+    "title": "docs(aio): Updated usage of Observables and redirects in router guide.",
+    "user": {
+      "login": "brandonroberts",
+      "id": 42211,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/42211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brandonroberts",
+      "html_url": "https://github.com/brandonroberts",
+      "followers_url": "https://api.github.com/users/brandonroberts/followers",
+      "following_url": "https://api.github.com/users/brandonroberts/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brandonroberts/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brandonroberts/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brandonroberts/subscriptions",
+      "organizations_url": "https://api.github.com/users/brandonroberts/orgs",
+      "repos_url": "https://api.github.com/users/brandonroberts/repos",
+      "events_url": "https://api.github.com/users/brandonroberts/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brandonroberts/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 149476251,
+        "url": "https://api.github.com/repos/angular/angular/labels/cla:%20yes",
+        "name": "cla: yes",
+        "color": "009800",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-07-18T01:40:59Z",
+    "updated_at": "2017-07-18T01:50:01Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/angular/angular/pulls/18197",
+      "html_url": "https://github.com/angular/angular/pull/18197",
+      "diff_url": "https://github.com/angular/angular/pull/18197.diff",
+      "patch_url": "https://github.com/angular/angular/pull/18197.patch"
+    },
+    "body": "## PR Checklist\r\nPlease check if your PR fulfills the following requirements:\r\n\r\n- [ ] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit\r\n- [ ] Tests for the changes have been added (for bug fixes / features)\r\n- [x] Docs have been added / updated (for bug fixes / features)\r\n\r\n\r\n## PR Type\r\nWhat kind of change does this PR introduce?\r\n\r\n<!-- Please check the one that applies to this PR using \"x\". -->\r\n```\r\n[ ] Bugfix\r\n[ ] Feature\r\n[ ] Code style update (formatting, local variables)\r\n[ ] Refactoring (no functional changes, no api changes)\r\n[ ] Build related changes\r\n[ ] CI related changes\r\n[x] Documentation content changes\r\n[ ] angular.io application / infrastructure changes\r\n[ ] Other... Please describe:\r\n```\r\n\r\n## What is the current behavior?\r\n<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->\r\n\r\nIssue Number: N/A\r\n\r\n\r\n## What is the new behavior?\r\n\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[x] No\r\n```\r\n\r\n<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->\r\n\r\n\r\n## Other information\r\n\r\ncc: @wardbell \r\n\r\nCloses #16377 #17901 "
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18196",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18196/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18196/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18196/events",
+    "html_url": "https://github.com/angular/angular/issues/18196",
+    "id": 243562566,
+    "number": 18196,
+    "title": "ngc reports a build error when tsc succeeds with same tsconfig",
+    "user": {
+      "login": "jelbourn",
+      "id": 838736,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 375501288,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20core%20&%20compiler",
+        "name": "comp: core & compiler",
+        "color": "c7def8",
+        "default": false
+      },
+      {
+        "id": 346386781,
+        "url": "https://api.github.com/repos/angular/angular/labels/hotlist:%20angular-core-team",
+        "name": "hotlist: angular-core-team",
+        "color": "d4c5f9",
+        "default": false
+      },
+      {
+        "id": 335954385,
+        "url": "https://api.github.com/repos/angular/angular/labels/hotlist:%20material2",
+        "name": "hotlist: material2",
+        "color": "d4c5f9",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+      "login": "chuckjaz",
+      "id": 372013,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/372013?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chuckjaz",
+      "html_url": "https://github.com/chuckjaz",
+      "followers_url": "https://api.github.com/users/chuckjaz/followers",
+      "following_url": "https://api.github.com/users/chuckjaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chuckjaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chuckjaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chuckjaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/chuckjaz/orgs",
+      "repos_url": "https://api.github.com/users/chuckjaz/repos",
+      "events_url": "https://api.github.com/users/chuckjaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chuckjaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "chuckjaz",
+        "id": 372013,
+        "avatar_url": "https://avatars1.githubusercontent.com/u/372013?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chuckjaz",
+        "html_url": "https://github.com/chuckjaz",
+        "followers_url": "https://api.github.com/users/chuckjaz/followers",
+        "following_url": "https://api.github.com/users/chuckjaz/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chuckjaz/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chuckjaz/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chuckjaz/subscriptions",
+        "organizations_url": "https://api.github.com/users/chuckjaz/orgs",
+        "repos_url": "https://api.github.com/users/chuckjaz/repos",
+        "events_url": "https://api.github.com/users/chuckjaz/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chuckjaz/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-07-18T00:03:26Z",
+    "updated_at": "2017-07-18T00:23:35Z",
+    "closed_at": null,
+    "body": "### Reproduction\r\n1. Clone https://github.com/jelbourn/material2/tree/tsc-v-ngc-error\r\n2. `npm i`\r\n3. Run `./node_modules/.bin/tsc -p ./src/cdk/tsconfig-build-tmp.json`. This succeeds.\r\n4. Run `./node_modules/.bin/ngc -p ./src/cdk/tsconfig-build-tmp.json`. This fails with an error:\r\n```\r\nError at /usr/local/google/home/jelbourn/material2/src/cdk/platform/index.ts:10:9: \r\nModule '\"/usr/local/google/home/jelbourn/material2/src/cdk/platform/platform\"' has no exported member 'Platform'.\r\n```\r\n\r\nIf I change the `files` entry in the aforementioned tsconfig from `platform/index.ts` to `platform.ts` with the same content, `ngc` works. \r\n\r\n(also worth mentioning that the reported file _does_ have exported member 'Platform')"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18195",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18195/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18195/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18195/events",
+    "html_url": "https://github.com/angular/angular/issues/18195",
+    "id": 243554930,
+    "number": 18195,
+    "title": "Form validation for warnings or other non error types",
+    "user": {
+      "login": "BioPhoton",
+      "id": 10064416,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10064416?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BioPhoton",
+      "html_url": "https://github.com/BioPhoton",
+      "followers_url": "https://api.github.com/users/BioPhoton/followers",
+      "following_url": "https://api.github.com/users/BioPhoton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BioPhoton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BioPhoton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BioPhoton/subscriptions",
+      "organizations_url": "https://api.github.com/users/BioPhoton/orgs",
+      "repos_url": "https://api.github.com/users/BioPhoton/repos",
+      "events_url": "https://api.github.com/users/BioPhoton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BioPhoton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 393879365,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20forms",
+        "name": "comp: forms",
+        "color": "c5def5",
+        "default": false
+      },
+      {
+        "id": 130606845,
+        "url": "https://api.github.com/repos/angular/angular/labels/type:%20feature",
+        "name": "type: feature",
+        "color": "EEEEEE",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2017-07-17T23:14:13Z",
+    "updated_at": "2017-07-18T19:55:47Z",
+    "closed_at": null,
+    "body": "## I'm submitting a...\r\n<pre><code>\r\n[x] Feature request\r\n</code></pre>\r\n\r\n## Current behavior\r\nCurrently there is no built in way to handle warnings or other validation types on formControls.\r\nI would like to have a way to configure validation functions that do not create errors and do not effect the valid state of an input but provide the same options as current validation does.\r\n\r\n## Expected behavior\r\nI need a way to easy configure FormControls || FormGroups like i do with validators. So i can apply existing validator functions to a \"warning\" section of the validation. I want \"warnings\" to utilize all the awesome features of forms like the validation state ('VALID, INVALID, PENDING...') and the errors.\r\n\r\n## What is the motivation / use case for changing the behavior?\r\nI want to have an abstract validation logic that can be used for errors and \"warnings\" in the same way.\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.3.0\r\n</code></pre>\r\n\r\n\r\nI hope my explanation is good enough. I didn't provide some points of the list i.e. Steps to reproduce as they have no meaning for this issue.\r\n\r\nBest \r\nMichael"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18192",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18192/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18192/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18192/events",
+    "html_url": "https://github.com/angular/angular/issues/18192",
+    "id": 243542295,
+    "number": 18192,
+    "title": "4.3.0 AOT issue",
+    "user": {
+      "login": "Bretto",
+      "id": 1615060,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1615060?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Bretto",
+      "html_url": "https://github.com/Bretto",
+      "followers_url": "https://api.github.com/users/Bretto/followers",
+      "following_url": "https://api.github.com/users/Bretto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Bretto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Bretto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Bretto/subscriptions",
+      "organizations_url": "https://api.github.com/users/Bretto/orgs",
+      "repos_url": "https://api.github.com/users/Bretto/repos",
+      "events_url": "https://api.github.com/users/Bretto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Bretto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 375501288,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20core%20&%20compiler",
+        "name": "comp: core & compiler",
+        "color": "c7def8",
+        "default": false
+      },
+      {
+        "id": 130606843,
+        "url": "https://api.github.com/repos/angular/angular/labels/type:%20bug",
+        "name": "type: bug",
+        "color": "EEEEEE",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-17T22:08:00Z",
+    "updated_at": "2017-07-18T19:57:49Z",
+    "closed_at": null,
+    "body": "<!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[X] Regression (a behavior that used to work and stopped working in a new release)\r\n[ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\nWhere I work we have developed a ```@Reducer``` decorator for are Apps. \r\nHere is an example: http://plnkr.co/edit/BeeRiJ9eMmLyXnRGmUnW?p=preview \r\nIts been working with the ngrx store 2.x for a while and in the plnkr it works with Ngrx4. \r\nThe thing is, with the cli and Ngrx4 we are getting this error:\r\nSame project: https://github.com/Bretto/ngrx4Reducer \r\n```ERROR in Error encountered resolving symbol values statically. Function calls are not supported. Consider replacing the function or lambda with a reference to an exported function (position 20:10 in the original .ts file) ...``` \r\n\r\nDon't be deceived if it works for you when you run the project, __the error comes and goes \"sporadically\"__. \r\n\r\nMy Question to you guys, where do I go from there ? Is this an issue for Ngrx or Angular ?\r\n\r\n## Expected behavior\r\nno error on compilation with AOT\r\n\r\n## Minimal reproduction of the problem with instructions\r\nworking example no AOT: http://plnkr.co/edit/BeeRiJ9eMmLyXnRGmUnW?p=preview\r\nnot working example with AOT: https://github.com/Bretto/ngrx4Reducer\r\n\r\n## What is the motivation / use case for changing the behavior?\r\nWe have a large number of application using our ```@Reducer``` decorator.\r\n\r\n\r\n## Environment\r\n<pre>\r\n@angular/cli: 1.0.0\r\n@angular/animations: 4.3.0\r\n@angular/cdk: 2.0.0-beta.8\r\n@angular/common: 4.3.0\r\n@angular/compiler: 4.3.0\r\n@angular/core: 4.3.0\r\n@angular/flex-layout: 2.0.0-rc.1\r\n@angular/forms: 4.3.0\r\n@angular/http: 4.3.0\r\n@angular/material: 2.0.0-beta.8\r\n@angular/platform-browser: 4.3.0\r\n@angular/platform-browser-dynamic: 4.3.0\r\n@angular/router: 4.3.0\r\n@angular/cli: 1.0.0\r\n@angular/compiler-cli: 4.3.0\r\n</pre>\r\n\r\nBrowser:\r\n- [X] Chrome (desktop) version XX\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n \r\nFor Tooling issues:\r\nnode: 7.0.0\r\nos: linux x64\r\n\r\nOthers:\r\n\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18191",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18191/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18191/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18191/events",
+    "html_url": "https://github.com/angular/angular/issues/18191",
+    "id": 243537076,
+    "number": 18191,
+    "title": "Height on auto only animates some of the time when the child height changes",
+    "user": {
+      "login": "WanderG",
+      "id": 1642134,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1642134?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WanderG",
+      "html_url": "https://github.com/WanderG",
+      "followers_url": "https://api.github.com/users/WanderG/followers",
+      "following_url": "https://api.github.com/users/WanderG/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WanderG/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WanderG/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WanderG/subscriptions",
+      "organizations_url": "https://api.github.com/users/WanderG/orgs",
+      "repos_url": "https://api.github.com/users/WanderG/repos",
+      "events_url": "https://api.github.com/users/WanderG/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WanderG/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 217956517,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20animations",
+        "name": "comp: animations",
+        "color": "c7def8",
+        "default": false
+      },
+      {
+        "id": 375498262,
+        "url": "https://api.github.com/repos/angular/angular/labels/severity5:%20regression",
+        "name": "severity5: regression",
+        "color": "0052cc",
+        "default": false
+      },
+      {
+        "id": 130606843,
+        "url": "https://api.github.com/repos/angular/angular/labels/type:%20bug",
+        "name": "type: bug",
+        "color": "EEEEEE",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+      "login": "matsko",
+      "id": 93018,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/93018?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matsko",
+      "html_url": "https://github.com/matsko",
+      "followers_url": "https://api.github.com/users/matsko/followers",
+      "following_url": "https://api.github.com/users/matsko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matsko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matsko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matsko/subscriptions",
+      "organizations_url": "https://api.github.com/users/matsko/orgs",
+      "repos_url": "https://api.github.com/users/matsko/repos",
+      "events_url": "https://api.github.com/users/matsko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matsko/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "matsko",
+        "id": 93018,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/93018?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/matsko",
+        "html_url": "https://github.com/matsko",
+        "followers_url": "https://api.github.com/users/matsko/followers",
+        "following_url": "https://api.github.com/users/matsko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/matsko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/matsko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/matsko/subscriptions",
+        "organizations_url": "https://api.github.com/users/matsko/orgs",
+        "repos_url": "https://api.github.com/users/matsko/repos",
+        "events_url": "https://api.github.com/users/matsko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/matsko/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-17T21:44:04Z",
+    "updated_at": "2017-07-18T19:58:48Z",
+    "closed_at": null,
+    "body": "## I'm submitting a...\r\n<pre><code>[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[X] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n</code></pre>\r\n\r\n## Current behavior\r\nThere is a animation on a parent div with height auto.\r\nThere is a child element with a height in pixels.\r\nWhen the child height changes, the parent should animate, but only does so once in a while.\r\n\r\n## Expected behavior\r\nThe parent should animate its height every time\r\n\r\n## Minimal reproduction of the problem with instructions\r\n\r\n![Image](http://i.imgur.com/r7hJBiF.gif)\r\n\r\nPlunker; http://plnkr.co/edit/pyfrnV?p=preview\r\nClick the buttons a couple of times.\r\n\r\n## What is the motivation / use case for changing the behavior?\r\nImage gallery. In my use case the inner element is an image. Below the image are a couple of thumbs the user can click on to change the larger image above it. The images can be all kinds of different sizes, I want a very quick animation on the height when another image is chosen.\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.3.0\r\n\r\nBrowser:\r\n- [X] Chrome (desktop) version 59\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n \r\nOthers:\r\n</code></pre>\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18189",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18189/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18189/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18189/events",
+    "html_url": "https://github.com/angular/angular/issues/18189",
+    "id": 243532771,
+    "number": 18189,
+    "title": "create next.angular.io + add \"next\" entry to the version dropdown",
+    "user": {
+      "login": "IgorMinar",
+      "id": 216296,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/216296?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/IgorMinar",
+      "html_url": "https://github.com/IgorMinar",
+      "followers_url": "https://api.github.com/users/IgorMinar/followers",
+      "following_url": "https://api.github.com/users/IgorMinar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/IgorMinar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/IgorMinar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/IgorMinar/subscriptions",
+      "organizations_url": "https://api.github.com/users/IgorMinar/orgs",
+      "repos_url": "https://api.github.com/users/IgorMinar/repos",
+      "events_url": "https://api.github.com/users/IgorMinar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/IgorMinar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 533874619,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20aio",
+        "name": "comp: aio",
+        "color": "c7def8",
+        "default": false
+      },
+      {
+        "id": 130606845,
+        "url": "https://api.github.com/repos/angular/angular/labels/type:%20feature",
+        "name": "type: feature",
+        "color": "EEEEEE",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2017-07-17T21:26:26Z",
+    "updated_at": "2017-07-18T09:38:44Z",
+    "closed_at": null,
+    "body": "## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\nMaster branch docs are being published to aio-staging.firebaseapp.com but we don't advertise this anywhere, so nobody can easily find the documentation for the current beta/rc release.\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\n- [ ] we should alias aio-staging.firebaseapp.com to next.angular.io\r\n- [ ] add an entry called \"next\" into the version dropdown that will redirect to next.angular.io."
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18188",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18188/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18188/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18188/events",
+    "html_url": "https://github.com/angular/angular/issues/18188",
+    "id": 243517762,
+    "number": 18188,
+    "title": "lazy loading and webpack not generate package",
+    "user": {
+      "login": "dknitrox",
+      "id": 27040200,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/27040200?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dknitrox",
+      "html_url": "https://github.com/dknitrox",
+      "followers_url": "https://api.github.com/users/dknitrox/followers",
+      "following_url": "https://api.github.com/users/dknitrox/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dknitrox/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dknitrox/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dknitrox/subscriptions",
+      "organizations_url": "https://api.github.com/users/dknitrox/orgs",
+      "repos_url": "https://api.github.com/users/dknitrox/repos",
+      "events_url": "https://api.github.com/users/dknitrox/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dknitrox/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-07-17T20:30:07Z",
+    "updated_at": "2017-07-18T02:20:19Z",
+    "closed_at": null,
+    "body": "I have my application a little big 3.87 mb, so I am trying to use load loading to be able to reduce the size of the package that generates webpack\r\nI use version 4 of angular + universal, and I am guided by this tutorial to implement lazy loading.\r\n\r\n[link](https://angular-2-training-book.rangle.io/handout/modules/lazy-loading-module.html)\r\n\r\n_app.routing.ts_\r\n```\r\n\r\nimport { NgModule } from '@angular/core';\r\nimport { Routes,RouterModule } from '@angular/router';\r\nimport { AdminPanelComponent } from './admin-panel/admin-panel.component';\r\nimport { AppWikiComponent } from './app-wiki/app-wiki.component';\r\nimport { AuthGuard } from './guards/auth.guard';\r\nconst routes:Routes=[\r\n      { path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule'},\r\n      {path:'casa',loadChildren:'./lazy/casa.module#CasaModule'},\r\n    {\r\n    path:'admin',\r\n    component:AdminPanelComponent,\r\n    canActivate:[AuthGuard],\r\n    loadChildren:'./admin-panel/admin-panel.module#AdminPanelModule'\r\n    },\r\n    {\r\n        path:'',\r\n        component:AppWikiComponent,\r\n        loadChildren:'./app-wiki/app-wiki.module#AppWikiModule'\r\n    },\r\n   ]\r\n\r\n\r\n@NgModule({\r\n    declarations:[\r\n\r\n    ],\r\n    imports:[\r\n        RouterModule.forRoot(routes)\r\n    ],\r\n    exports:[RouterModule]\r\n})\r\n\r\nexport class AppRouterModule{}\r\n```\r\nadmin.panel.routing.ts\r\n\r\n```\r\nimport { NgModule,ModuleWithProviders } from '@angular/core';\r\nimport { Routes,RouterModule } from '@angular/router';\r\nimport { AdminStatisticComponent } from './admin-statistic/admin-statistic.component';\r\nimport { AdminReportComponent } from './admin-report/admin-report.component';\r\nimport { AdminUserComponent } from './admin-user/admin-user.component';\r\n\r\nimport { AdminSearchAdvancedComponent } from './admin-search-advanced/admin-search-advanced.component';\r\n    \r\nimport { AuthGuard } from '../guards/auth.guard';\r\n\r\nconst routes:Routes=[\r\n        {path:\"users\",\r\n        component:AdminUserComponent},\r\n        {path:\"statistics\",component:AdminStatisticComponent},\r\n        {path:\"reports\",component:AdminReportComponent},\r\n        {path:\"search-advanced\",component:AdminSearchAdvancedComponent},\r\n        ]\r\n  \r\n\r\n   \r\nexport const routing:ModuleWithProviders=RouterModule.forChild(routes);\r\n```\r\n\r\nadmin.panel.module\r\n\r\n\r\n\r\n```\r\n\r\nimport { NgModule } from '@angular/core';\r\nimport { AdminPanelComponent } from './admin-panel.component';\r\nimport { NavWikiModule } from '../components-shared';\r\nimport { routing } from './admin-panel-routing';\r\n\r\nimport { AdminWikiModule } from './admin-wiki/admin-wiki.module';\r\nimport { AdminStatisticComponent } from './admin-statistic/admin-statistic.component';\r\nimport { AdminReportComponent } from './admin-report/admin-report.component';\r\nimport { AdminUserComponent } from './admin-user/admin-user.component';\r\n\r\nimport { AdminSearchAdvancedComponent } from './admin-search-advanced/admin-search-advanced.component';\r\n\r\n\r\n@NgModule({\r\n    declarations:[\r\n        AdminPanelComponent,\r\n        AdminReportComponent,\r\n        AdminUserComponent,\r\n        AdminSearchAdvancedComponent,\r\n        AdminStatisticComponent\r\n    ],\r\n    imports:[\r\n        routing,\r\n        NavWikiModule,\r\n        //AdminWikiModule,        \r\n         \r\n    ],\r\n    providers:[],\r\n})\r\n\r\nexport class AdminPanelModule{}\r\n```\r\n\r\n\r\nWhen I compile it generates 3 packages 0.client.js, 1.client.js and client.js,should be 4, the admin pack is missing.\r\n\r\nI use the \"frozen\" repository\r\n\r\n[frozen](https://github.com/FrozenPandaz/ng-universal-demo)\r\n\r\nHow could I solve this.\r\n\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18187",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18187/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18187/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18187/events",
+    "html_url": "https://github.com/angular/angular/issues/18187",
+    "id": 243511342,
+    "number": 18187,
+    "title": "Documentation issue, template and template-url",
+    "user": {
+      "login": "briankip",
+      "id": 5111726,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5111726?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/briankip",
+      "html_url": "https://github.com/briankip",
+      "followers_url": "https://api.github.com/users/briankip/followers",
+      "following_url": "https://api.github.com/users/briankip/following{/other_user}",
+      "gists_url": "https://api.github.com/users/briankip/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/briankip/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/briankip/subscriptions",
+      "organizations_url": "https://api.github.com/users/briankip/orgs",
+      "repos_url": "https://api.github.com/users/briankip/repos",
+      "events_url": "https://api.github.com/users/briankip/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/briankip/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-17T20:06:21Z",
+    "updated_at": "2017-07-17T20:06:21Z",
+    "closed_at": null,
+    "body": "<!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ x] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\nDocumentation does not alert the user that template-url overrides the template directive in the @component decorator, the template-url is there by default in new autogenerated projects.\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\nThe user should be notified, on the appropriate action to take. Which is to remove the template-url directive.\r\n\r\n## Minimal reproduction of the problem with instructions\r\n<!--\r\nFor bug reports please provide the *STEPS TO REPRODUCE* and if possible a *MINIMAL DEMO* of the problem via\r\nhttps://plnkr.co or similar (you can use this template as a starting point: http://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5).\r\n-->\r\nDocumentation found here. \r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\nNew users such as myself cannot follow the tutorial successfully since it does not go as expected. The template will not load as expected. Leading to the user wasting time trying to look for a solution.\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: X.Y.Z\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n4.3.0\r\n\r\nBrowser:\r\n- [x ] Chrome (desktop) version XX\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n \r\nFor Tooling issues:\r\n- Node version: XX  <!-- run `node --version` -->\r\nv6.11.1\r\n- Platform:  <!-- Mac, Linux, Windows --> \r\nLinux\r\n\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\n</code></pre>\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18184",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18184/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18184/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18184/events",
+    "html_url": "https://github.com/angular/angular/issues/18184",
+    "id": 243496567,
+    "number": 18184,
+    "title": "<embed> tag with [src]=\"url\" fails",
+    "user": {
+      "login": "LimeyTX",
+      "id": 4522669,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4522669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LimeyTX",
+      "html_url": "https://github.com/LimeyTX",
+      "followers_url": "https://api.github.com/users/LimeyTX/followers",
+      "following_url": "https://api.github.com/users/LimeyTX/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LimeyTX/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LimeyTX/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LimeyTX/subscriptions",
+      "organizations_url": "https://api.github.com/users/LimeyTX/orgs",
+      "repos_url": "https://api.github.com/users/LimeyTX/repos",
+      "events_url": "https://api.github.com/users/LimeyTX/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LimeyTX/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-17T19:11:54Z",
+    "updated_at": "2017-07-18T00:32:59Z",
+    "closed_at": null,
+    "body": "<!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[x ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\nThe issue is fully described [here](https://stackoverflow.com/questions/45135788/angular-4-unable-to-embed-a-flash-swf-file).\r\nThe template file:\r\n    `<!--<embed width=\"400\" height=\"300\" [src]=\"url\" />--`\r\n    `<div [innerHTML]=\"html\"></div>`\r\n\r\nThe controller file:\r\n\r\n     import { Component, Input, OnInit } from '@angular/core';\r\n     import { DomSanitizer, SafeResourceUrl, SafeUrl, SafeHtml } from '@angular/platform-browser';\r\n     @Component({\r\n         selector: 'animation',\r\n         templateUrl: './animation.component.html'\r\n     })\r\n\r\n    export class AnimationComponent implements OnInit {\r\n        @Input()\r\n        private code: string = '';\r\n        private url: SafeResourceUrl;\r\n        private html: SafeHtml;\r\n\r\n        constructor(private sanitizer: DomSanitizer) { }\r\n\r\n        ngOnInit() {\r\n            let url = `/assets/SWF/${this.code}`;\r\n            let html = `<embed width=\"400\" height=\"300\" src=\"${url}\" />`\r\n            this.url = this.sanitizer.bypassSecurityTrustResourceUrl(url);\r\n            this.html = this.sanitizer.bypassSecurityTrustHtml(html);\r\n        }\r\n    }\r\n\r\n\r\nThis works but if I make the template file use the embed tag instead of the div tag it doesn't display anything.\r\n\r\nBut here is the odd thing. If I change the  template to \r\n    `\r\n    <embed width=\"400\" height=\"300\" src=\"/assets/SWF/Blob.swf\" />\r\n    `\r\nit doesn't work. But when I inspect the generated embed in the browser it is EXACTLY the same.\r\n\r\n\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\nIt should display the animation in the .swf file\r\n\r\n## Minimal reproduction of the problem with instructions\r\n<!--\r\nFor bug reports please provide the *STEPS TO REPRODUCE* and if possible a *MINIMAL DEMO* of the problem via\r\nhttps://plnkr.co or similar (you can use this template as a starting point: http://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5).\r\n-->\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\n\r\n\r\n## Environment\r\n\r\n<pre><code>\r\n  \"dependencies\": {\r\n    \"@angular/animations\": \"4.1.2\",\r\n    \"@angular/common\": \"4.1.2\",\r\n    \"@angular/compiler\": \"4.1.2\",\r\n    \"@angular/core\": \"4.1.2\",\r\n    \"@angular/forms\": \"4.1.2\",\r\n    \"@angular/http\": \"4.1.2\",\r\n    \"@angular/platform-browser\": \"4.1.2\",\r\n    \"@angular/platform-browser-dynamic\": \"4.1.2\",\r\n    \"@angular/platform-server\": \"4.1.2\",\r\n    \"@angular/router\": \"4.1.2\",\r\n    \"@types/node\": \"7.0.18\",\r\n    \"angular2-template-loader\": \"0.6.2\",\r\n    \"aspnet-prerendering\": \"^2.0.5\",\r\n    \"aspnet-webpack\": \"^1.0.29\",\r\n    \"awesome-typescript-loader\": \"3.1.3\",\r\n    \"bootstrap\": \"3.3.7\",\r\n    \"css\": \"2.2.1\",\r\n    \"css-loader\": \"0.28.1\",\r\n    \"es6-shim\": \"0.35.3\",\r\n    \"event-source-polyfill\": \"0.0.9\",\r\n    \"expose-loader\": \"0.7.3\",\r\n    \"extract-text-webpack-plugin\": \"2.1.0\",\r\n    \"file-loader\": \"0.11.1\",\r\n    \"html-loader\": \"0.4.5\",\r\n    \"isomorphic-fetch\": \"2.2.1\",\r\n    \"jquery\": \"3.2.1\",\r\n    \"json-loader\": \"0.5.4\",\r\n    \"preboot\": \"4.5.2\",\r\n    \"raw-loader\": \"0.5.1\",\r\n    \"reflect-metadata\": \"0.1.10\",\r\n    \"rxjs\": \"5.4.0\",\r\n    \"style-loader\": \"0.17.0\",\r\n    \"to-string-loader\": \"1.1.5\",\r\n    \"typescript\": \"2.3.2\",\r\n    \"url-loader\": \"0.5.8\",\r\n    \"webpack\": \"2.5.1\",\r\n    \"webpack-hot-middleware\": \"2.18.0\",\r\n    \"webpack-merge\": \"4.1.0\",\r\n    \"zone.js\": \"0.8.10\"\r\n  },\r\n  \"devDependencies\": {\r\n    \"@types/chai\": \"3.5.2\",\r\n    \"@types/jasmine\": \"2.5.47\",\r\n    \"chai\": \"3.5.0\",\r\n    \"jasmine-core\": \"2.6.1\",\r\n    \"karma\": \"1.7.0\",\r\n    \"karma-chai\": \"0.1.0\",\r\n    \"karma-chrome-launcher\": \"2.1.1\",\r\n    \"karma-cli\": \"1.0.1\",\r\n    \"karma-jasmine\": \"1.1.0\",\r\n    \"karma-webpack\": \"2.0.3\"\r\n  }\r\n}\r\n\r\nAngular version: X.Y.Z\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [x ] Chrome (desktop) version Version 59.0.3071.115 (Official Build) (64-bit)\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n \r\nFor Tooling issues:\r\n- Node version: XX  <!-- run `node --version` -->\r\n- Platform:  <!-- Mac, Linux, Windows -->\r\n\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\n</code></pre>\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18183",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18183/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18183/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18183/events",
+    "html_url": "https://github.com/angular/angular/pull/18183",
+    "id": 243492773,
+    "number": 18183,
+    "title": "Fix typo in router.spec.ts",
+    "user": {
+      "login": "LayZeeDK",
+      "id": 6364586,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6364586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LayZeeDK",
+      "html_url": "https://github.com/LayZeeDK",
+      "followers_url": "https://api.github.com/users/LayZeeDK/followers",
+      "following_url": "https://api.github.com/users/LayZeeDK/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LayZeeDK/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LayZeeDK/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LayZeeDK/subscriptions",
+      "organizations_url": "https://api.github.com/users/LayZeeDK/orgs",
+      "repos_url": "https://api.github.com/users/LayZeeDK/repos",
+      "events_url": "https://api.github.com/users/LayZeeDK/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LayZeeDK/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 149476251,
+        "url": "https://api.github.com/repos/angular/angular/labels/cla:%20yes",
+        "name": "cla: yes",
+        "color": "009800",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2017-07-17T18:57:59Z",
+    "updated_at": "2017-07-18T22:01:59Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/angular/angular/pulls/18183",
+      "html_url": "https://github.com/angular/angular/pull/18183",
+      "diff_url": "https://github.com/angular/angular/pull/18183.diff",
+      "patch_url": "https://github.com/angular/angular/pull/18183.patch"
+    },
+    "body": "docs(router): minor typo\r\n\r\nFix a minor typo in the description of a router spec.\r\n\r\n## PR Checklist\r\nPlease check if your PR fulfills the following requirements:\r\n\r\n- [x] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit\r\n- [ ] Tests for the changes have been added (for bug fixes / features)\r\n- [ ] Docs have been added / updated (for bug fixes / features)\r\n\r\n\r\n## PR Type\r\nWhat kind of change does this PR introduce?\r\n\r\n<!-- Please check the one that applies to this PR using \"x\". -->\r\n```\r\n[ ] Bugfix\r\n[ ] Feature\r\n[ ] Code style update (formatting, local variables)\r\n[ ] Refactoring (no functional changes, no api changes)\r\n[ ] Build related changes\r\n[x] CI related changes\r\n[ ] Documentation content changes\r\n[ ] angular.io application / infrastructure changes\r\n[ ] Other... Please describe:\r\n```\r\n\r\n## What is the current behavior?\r\n<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->\r\n\r\nIssue Number: N/A\r\n\r\n\r\n## What is the new behavior?\r\n\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[x] No\r\n```\r\n\r\n<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->\r\n\r\n\r\n## Other information\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18178",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18178/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18178/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18178/events",
+    "html_url": "https://github.com/angular/angular/issues/18178",
+    "id": 243475791,
+    "number": 18178,
+    "title": "Provide a more reactive IterableDiffer",
+    "user": {
+      "login": "EricABC",
+      "id": 13154635,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13154635?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricABC",
+      "html_url": "https://github.com/EricABC",
+      "followers_url": "https://api.github.com/users/EricABC/followers",
+      "following_url": "https://api.github.com/users/EricABC/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricABC/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricABC/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricABC/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricABC/orgs",
+      "repos_url": "https://api.github.com/users/EricABC/repos",
+      "events_url": "https://api.github.com/users/EricABC/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricABC/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2017-07-17T17:55:03Z",
+    "updated_at": "2017-07-18T15:23:27Z",
+    "closed_at": null,
+    "body": "<!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ X ] Feature request\r\n</code></pre>\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\n\r\nDefaultIterableDiffers provides a brute-force implementation for iterables that is optimal for small arrays where the change information is lost.  It's clearly the best choice for most common scenarios.  However, often in more declarative applications the change information is known.  For example, I might dispatch an ngrx action to add an item to a list.  Rather than maintaining my own copy of the list state, I just want to feed ngFor the change.  NgFor performance would be associated only to the size of changes now, instead of the list size.  Although it could be added separately, it has that 'OnPush' declarative feel that seems at home in the core angular culture.\r\n\r\nThe implementation would be substantially simpler than scanning arrays for changes, something like this crude untested example that could be upgraded in a PR...\r\n\r\n```\r\n<ng-container *ngFor=\"let item of changes | async\">...</ng-container>\r\n```\r\n... where ```changes``` is an ```Observable<Iterable<IterableChangeRecord<V>>>```\r\n\r\n```ts\r\n\r\n/** Assumes immutable iterable */\r\nexport class ExplicitDiffer<V> implements IterableDiffer<V> {\r\n    private last?: NgIterable<IterableChangeRecord<V>>;\r\n\r\n    /**\r\n     * @todo NgForOf implies external state is maintained by requiring NgIterable here.  Nothing in ngFor actually iterates.\r\n     */\r\n    diff(object: NgIterable<V>): IterableChanges<V> | null {\r\n        let current = <Iterable<IterableChangeRecord<V>>><any>object;\r\n        return this.last === current ? null : new ExplicitChanges<V>(this.last = current);\r\n    }\r\n}\r\n\r\nexport class ExplicitChanges<V> implements IterableChanges<V>, Iterable<V> {\r\n    /**\r\n     * Leave both current and previous indices unset to indicate an item change.\r\n     * @todo Equal current and previous index.\r\n     * @todo Optimize by sorting.\r\n    */\r\n    constructor(private changes: Iterable<IterableChangeRecord<V>>) {\r\n    }\r\n\r\n    forEachOperation(fn: (record: IterableChangeRecord<V>, previousIndex: number, currentIndex: number) => void): void {\r\n        // Instead of tracking moves in a large collection (default differs), we modify position of each change in a small collection.\r\n        for (let record of this.changes) {\r\n            if (record.previousIndex == null && record.currentIndex == null)\r\n                continue;\r\n            if (record.previousIndex == null) {\r\n                for (let change of this.changes)\r\n                    if (change.previousIndex && change.previousIndex > <number>record.currentIndex)\r\n                        (<number>change.previousIndex)++;\r\n            }\r\n            else if (record.currentIndex == null) {\r\n                for (let change of this.changes)\r\n                    if (change.previousIndex && change.previousIndex > record.previousIndex)\r\n                        (<number>change.previousIndex)--;\r\n            }\r\n        }\r\n        for (let record of this.changes)\r\n            fn(record, <number>record.previousIndex, <number>record.currentIndex);\r\n    }\r\n\r\n    forEachIdentityChange(fn: (record: IterableChangeRecord<V>) => void): void {\r\n        for (let record of this.changes) {\r\n            if (record.previousIndex == null && record.currentIndex == null)\r\n                fn(record);\r\n        }\r\n    }\r\n```\r\n\r\nOther thoughts:  An array of changes could just use mergeMap to change things one at a time. but that is sounding like a different directive than ngFor that doesn't use differs at all.  Perhaps that's an even better approach since it's not even 'for'-ing over an iterable."
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18177",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18177/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18177/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18177/events",
+    "html_url": "https://github.com/angular/angular/issues/18177",
+    "id": 243464770,
+    "number": 18177,
+    "title": "The Hero Editor tutorial Plnkr example is broken.",
+    "user": {
+      "login": "owensgit",
+      "id": 1943532,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1943532?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/owensgit",
+      "html_url": "https://github.com/owensgit",
+      "followers_url": "https://api.github.com/users/owensgit/followers",
+      "following_url": "https://api.github.com/users/owensgit/following{/other_user}",
+      "gists_url": "https://api.github.com/users/owensgit/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/owensgit/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/owensgit/subscriptions",
+      "organizations_url": "https://api.github.com/users/owensgit/orgs",
+      "repos_url": "https://api.github.com/users/owensgit/repos",
+      "events_url": "https://api.github.com/users/owensgit/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/owensgit/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-17T17:13:12Z",
+    "updated_at": "2017-07-17T17:13:12Z",
+    "closed_at": null,
+    "body": "## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[x] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\nIn the Angular.io Hero Editor tutorial, if you click on the live example link, it opens a broken Plnkr page. The preview window displays \"Loading...\" and never loads the rest of the app.\r\n\r\nLive example link: https://angular.io/generated/live-examples/toh-pt1/eplnkr.html\r\n\r\n## Expected behavior\r\nThe live example should load with no problems.\r\n\r\n\r\n## Minimal reproduction of the problem with instructions\r\n*STEPS TO REPRODUCE*\r\n1. Go to part one of the [Hero Editor tutorial](https://angular.io/tutorial/toh-pt1) in the Angular.io docs.\r\n2. Scroll down just past the file structure.\r\n3. See the sentence: When you're done with this page, the app should look like this live example / download example.\r\n4. Click on live example.\r\n\r\n## What is the motivation / use case for changing the behavior?\r\nThe motivation is that people new to Angular will be able to see the live example and follow the tutorial with confidence.\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: Not known.\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [x] Chrome (desktop) version XX\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n \r\nFor Tooling issues:\r\n- Node version: n/a\r\n- Platform:  Mac\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18176",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18176/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18176/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18176/events",
+    "html_url": "https://github.com/angular/angular/issues/18176",
+    "id": 243464479,
+    "number": 18176,
+    "title": "IE11 Route Issue with subfolder relative base path",
+    "user": {
+      "login": "StephenFluin",
+      "id": 165056,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/165056?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/StephenFluin",
+      "html_url": "https://github.com/StephenFluin",
+      "followers_url": "https://api.github.com/users/StephenFluin/followers",
+      "following_url": "https://api.github.com/users/StephenFluin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/StephenFluin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/StephenFluin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/StephenFluin/subscriptions",
+      "organizations_url": "https://api.github.com/users/StephenFluin/orgs",
+      "repos_url": "https://api.github.com/users/StephenFluin/repos",
+      "events_url": "https://api.github.com/users/StephenFluin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/StephenFluin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 375500771,
+        "url": "https://api.github.com/repos/angular/angular/labels/comp:%20router",
+        "name": "comp: router",
+        "color": "c7def8",
+        "default": false
+      },
+      {
+        "id": 375496864,
+        "url": "https://api.github.com/repos/angular/angular/labels/freq1:%20low",
+        "name": "freq1: low",
+        "color": "fbca04",
+        "default": false
+      },
+      {
+        "id": 375498203,
+        "url": "https://api.github.com/repos/angular/angular/labels/severity3:%20broken",
+        "name": "severity3: broken",
+        "color": "0052cc",
+        "default": false
+      },
+      {
+        "id": 130606843,
+        "url": "https://api.github.com/repos/angular/angular/labels/type:%20bug",
+        "name": "type: bug",
+        "color": "EEEEEE",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-17T17:12:00Z",
+    "updated_at": "2017-07-17T17:12:00Z",
+    "closed_at": null,
+    "body": "## I'm submitting a...\r\n<pre><code>\r\n[X] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n</code></pre>\r\n\r\n##\r\nThere is a bug in the router that prevents applications from loading. This bug is exposed with this combination:\r\n\r\n1. Relative `base` in index.html\r\n1. IE11 browser\r\n1. Served from a subfolder\r\n\r\n\r\n## Setup Steps / Repro\r\n* Clone this repo: https://github.com/StephenFluin/ie11test\r\n* `npm install`\r\n* `ng build -prod`\r\n* cd into `dist` and serve it (ie `python -m SimpleHTTPServer`)\r\n* Visit the site in IE11\r\n\r\n## Observed behavior\r\n```\r\nERROR Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'sub'\r\nError: Cannot match any routes. URL Segment: 'sub'\r\n```\r\n\r\n## Expected Behavior\r\nThe app loads as intended\r\n![image](https://user-images.githubusercontent.com/165056/28280181-c2c51df2-6ad7-11e7-82b7-f379807ed035.png)\r\n\r\n\r\n\r\n## Environment\r\n<pre><code>\r\nAngular version:4.3.0\r\n(This is not a new issue with this version and is believe to be this way at least back to 4.0)\r\n\r\nBrowser:\r\n- [X] IE version 11\r\n\r\n \r\nApp Built with\r\n```\r\n@angular/cli: 1.2.0\r\nnode: 8.1.3\r\nos: linux x64\r\n@angular/animations: 4.3.0\r\n@angular/common: 4.3.0\r\n@angular/compiler: 4.3.0\r\n@angular/core: 4.3.0\r\n@angular/forms: 4.3.0\r\n@angular/http: 4.3.0\r\n@angular/platform-browser: 4.3.0\r\n@angular/platform-browser-dynamic: 4.3.0\r\n@angular/router: 4.3.0\r\n@angular/cli: 1.2.0\r\n@angular/compiler-cli: 4.3.0\r\n@angular/language-service: 4.3.0\r\n```\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18175",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18175/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18175/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18175/events",
+    "html_url": "https://github.com/angular/angular/issues/18175",
+    "id": 243445654,
+    "number": 18175,
+    "title": "For HttpClient in 4.3.0, export HttpRequestInit for options",
+    "user": {
+      "login": "chunghha",
+      "id": 24458075,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/24458075?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chunghha",
+      "html_url": "https://github.com/chunghha",
+      "followers_url": "https://api.github.com/users/chunghha/followers",
+      "following_url": "https://api.github.com/users/chunghha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chunghha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chunghha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chunghha/subscriptions",
+      "organizations_url": "https://api.github.com/users/chunghha/orgs",
+      "repos_url": "https://api.github.com/users/chunghha/repos",
+      "events_url": "https://api.github.com/users/chunghha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chunghha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-07-17T16:04:40Z",
+    "updated_at": "2017-07-17T18:45:30Z",
+    "closed_at": null,
+    "body": "<!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ X ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\nHttpRequestInit is defined for options but not exported unlike HttpHeaders.\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\nHttpRequestInit is also exported if it's meant to be so users can set type of options to it within applications.\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\nNeed to set new HttpClient's options type to something for my applications.\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.3.0\r\n\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18174",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18174/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18174/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18174/events",
+    "html_url": "https://github.com/angular/angular/issues/18174",
+    "id": 243428089,
+    "number": 18174,
+    "title": "docs(ControlValueAccessor): registerOnTouched() description is misleading",
+    "user": {
+      "login": "reppners",
+      "id": 3855704,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3855704?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/reppners",
+      "html_url": "https://github.com/reppners",
+      "followers_url": "https://api.github.com/users/reppners/followers",
+      "following_url": "https://api.github.com/users/reppners/following{/other_user}",
+      "gists_url": "https://api.github.com/users/reppners/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/reppners/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/reppners/subscriptions",
+      "organizations_url": "https://api.github.com/users/reppners/orgs",
+      "repos_url": "https://api.github.com/users/reppners/repos",
+      "events_url": "https://api.github.com/users/reppners/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/reppners/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2017-07-17T15:09:48Z",
+    "updated_at": "2017-07-17T19:07:21Z",
+    "closed_at": null,
+    "body": "<!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[x] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\n\r\nhttps://angular.io/api/forms/ControlValueAccessor#members\r\n\r\nThe documentation about `registerOnTouched(fn: any): void` states\r\n\r\n```\r\nSet the function to be called when the control receives a touch event.\r\n```\r\n\r\nHowever I think this is highly misleading and does not really describe what `touched` does mean in the forms context. What I think `touched` does mean is: the control was `visited`. This is also how it seems to be implemented by angular itself as this function is invoked when the `blur` event is detected.\r\n\r\nSee https://github.com/angular/angular/blob/a0b06befb6972e96ce5b724c14a65f5382bd4eee/packages/forms/src/directives/number_value_accessor.ts#L34\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\n\r\nDocument the intent and purpose of `touched` more like:\r\n\r\n`Invoke when the control loses focus to indicate the user visited the control`.\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\n\r\nThe documentation should clearly define the intent of `touched` so implementors of the interface clearly know the purpose and when to invoke the function. Maybe `visited` is the more accurate term and `touched` should rather be deprecated for the long term but thats just a proposal.\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.3.0\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18173",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18173/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18173/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18173/events",
+    "html_url": "https://github.com/angular/angular/issues/18173",
+    "id": 243420126,
+    "number": 18173,
+    "title": "Issue a warning when an :enter query is used inside of an :enter (or void => *) transition",
+    "user": {
+      "login": "matsko",
+      "id": 93018,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/93018?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matsko",
+      "html_url": "https://github.com/matsko",
+      "followers_url": "https://api.github.com/users/matsko/followers",
+      "following_url": "https://api.github.com/users/matsko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matsko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matsko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matsko/subscriptions",
+      "organizations_url": "https://api.github.com/users/matsko/orgs",
+      "repos_url": "https://api.github.com/users/matsko/repos",
+      "events_url": "https://api.github.com/users/matsko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matsko/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-17T14:45:44Z",
+    "updated_at": "2017-07-17T14:45:44Z",
+    "closed_at": null,
+    "body": "When an element is inserted into the view the inner elements are not queryable using `:enter` because `:enter` queries are only for root-level. So when an enter transition kicks off it, by definition, is a container being inserted and, therefore, is root-level.\r\n\r\nThis means that if an animation trigger contains a `* => *` transition and that transition contains `:enter` or `:leave` queries then it will throw an error (since the queries return nothing).\r\n\r\nWhat should happen is that animations should throw an error when `:enter` is used inside of an `:enter` transition and/or if a `:leave` query is used inside of a `:leave` transition."
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18171",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18171/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18171/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18171/events",
+    "html_url": "https://github.com/angular/angular/issues/18171",
+    "id": 243415326,
+    "number": 18171,
+    "title": "Router-outlet doesn't work for lazy router if use router-outlet how sub-router",
+    "user": {
+      "login": "WahlbergRu",
+      "id": 4931005,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4931005?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WahlbergRu",
+      "html_url": "https://github.com/WahlbergRu",
+      "followers_url": "https://api.github.com/users/WahlbergRu/followers",
+      "following_url": "https://api.github.com/users/WahlbergRu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WahlbergRu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WahlbergRu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WahlbergRu/subscriptions",
+      "organizations_url": "https://api.github.com/users/WahlbergRu/orgs",
+      "repos_url": "https://api.github.com/users/WahlbergRu/repos",
+      "events_url": "https://api.github.com/users/WahlbergRu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WahlbergRu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-17T14:32:22Z",
+    "updated_at": "2017-07-17T16:32:36Z",
+    "closed_at": null,
+    "body": "<pre><code>\r\n[X] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[X] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\nIf I use router-outlet for custom router with directive name, \r\nthan if I use declaration in module with router, that work is fine. But if I declarated and exported component in shared module, component is work, but router-outlet doesn't work in component. \r\nmore inforamtion in this - https://stackoverflow.com/questions/45146621/full-understanding-of-routeroutlet-in-route-with-lazy-route\r\n\r\n## Current behavior\r\nRouter-outlet don't work if component is declareted in shared.module.ts\r\n\r\n## Expected behavior\r\nRouter-outlet do work if component is declareted in shared.module.ts\r\n\r\n\r\n## Minimal reproduction of the problem with instructions\r\ncustom rep for testing - https://github.com/Adventure-RPG/Adventure-Client \r\nIf u declarated component in shared and undeclarated in app.modules.ts u can see this bug on link localhost:4201/main(sidebar:inventory)\r\n\r\n## What is the motivation / use case for changing the behavior?\r\nI don't wanna make for any router new component with copy/pasta\r\n\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.3\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [X] Chrome (desktop) version XX\r\n\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18170",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18170/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18170/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18170/events",
+    "html_url": "https://github.com/angular/angular/issues/18170",
+    "id": 243398801,
+    "number": 18170,
+    "title": "ERROR in Illegal state: symbol without members expected when using AOT in 4.3.0",
+    "user": {
+      "login": "aleris",
+      "id": 1011245,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1011245?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aleris",
+      "html_url": "https://github.com/aleris",
+      "followers_url": "https://api.github.com/users/aleris/followers",
+      "following_url": "https://api.github.com/users/aleris/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aleris/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aleris/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aleris/subscriptions",
+      "organizations_url": "https://api.github.com/users/aleris/orgs",
+      "repos_url": "https://api.github.com/users/aleris/repos",
+      "events_url": "https://api.github.com/users/aleris/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aleris/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 6,
+    "created_at": "2017-07-17T13:39:59Z",
+    "updated_at": "2017-07-18T13:21:47Z",
+    "closed_at": null,
+    "body": "## I'm submitting a...\r\n<pre><code>\r\n[x] Regression\r\n[ ] Bug report \r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request\r\n</code></pre>\r\n\r\n## Current behavior\r\nGetting error when building for production (AOT enabled) with a certain pattern of imports/exports (see below). The error reported is:\r\n```\r\nERROR in Illegal state: symbol without members expected, but got {\"filePath\":\"snip/test/ng/aottest/src/app/shared/role-co\r\nnstants.ts\",\"name\":\"RoleConstants\",\"members\":[\"USER\"]}.\r\n\r\nERROR in ./src/main.ts\r\nModule not found: Error: Can't resolve './$$_gendir/app/app.module.ngfactory' in 'snip\\test\\ng\\aottest\\src'\r\n @ ./src/main.ts 4:0-74\r\n @ multi ./src/main.ts\r\n```\r\nWorked ok in 4.2.6, does not work in 4.3.0.\r\n\r\n## Expected behavior\r\nng build --prod should build correctly without rising the error.\r\n\r\n## Minimal reproduction of the problem with instructions\r\ndownload [symbol-without-members-error-test-a.zip](https://github.com/angular/angular/files/1152729/symbol-without-members-error-test-a.zip)\r\nnpm install\r\nng build --prod\r\n\r\nThe project contain a newly generated project (with ng new) with a number of files added to reproduce the error:\r\nshared/const.ts - exports a constant field\r\nshared/index.ts - exports consts above\r\nintermediate.ts - imports consts exports aggregated data\r\nindex.ts - exports intermediate above\r\nmodule.ts - is calling RouterModule.forRoot([...intermediate] with intermediate imported from above.\r\n\r\nIf `import { Consts } from './shared';` is changed to `import { Consts } from './shared/consts';` in intermediate.ts the problem does not manifest anymore.\r\n\r\n## What is the motivation / use case for changing the behavior?\r\nn/a\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.3.0\r\n(worked ok in 4.2.6.)\r\n\r\nFor Tooling issues:\r\n- Node version: v7.10.0\r\n- Platform: Windows\r\n\r\n</code></pre>\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18169",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18169/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18169/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18169/events",
+    "html_url": "https://github.com/angular/angular/issues/18169",
+    "id": 243387931,
+    "number": 18169,
+    "title": "forms: inconsistent signature for path of get and (getError and hasError) methods",
+    "user": {
+      "login": "tieppt",
+      "id": 7151365,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7151365?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tieppt",
+      "html_url": "https://github.com/tieppt",
+      "followers_url": "https://api.github.com/users/tieppt/followers",
+      "following_url": "https://api.github.com/users/tieppt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tieppt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tieppt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tieppt/subscriptions",
+      "organizations_url": "https://api.github.com/users/tieppt/orgs",
+      "repos_url": "https://api.github.com/users/tieppt/repos",
+      "events_url": "https://api.github.com/users/tieppt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tieppt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-17T13:02:02Z",
+    "updated_at": "2017-07-17T13:02:02Z",
+    "closed_at": null,
+    "body": "## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[x ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\nThe `get` method accept `path: Array<string|number>|string` but the `getError` only accept `path?: string[]`\r\n\r\n\r\n## Expected behavior\r\nUsing same signature of `get` for `getError` and `hasError`.\r\n\r\n\r\n## Minimal reproduction of the problem with instructions\r\n<!--\r\nFor bug reports please provide the *STEPS TO REPRODUCE* and if possible a *MINIMAL DEMO* of the problem via\r\nhttps://plnkr.co or similar (you can use this template as a starting point: http://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5).\r\n-->\r\n\r\n```ts\r\n/**\r\n   * Retrieves a child control given the control's name or path.\r\n   *\r\n   * Paths can be passed in as an array or a string delimited by a dot.\r\n   *\r\n   * To get a control nested within a `person` sub-group:\r\n   *\r\n   * * `this.form.get('person.name');`\r\n   *\r\n   * -OR-\r\n   *\r\n   * * `this.form.get(['person', 'name']);`\r\n   */\r\n  get(path: Array<string|number>|string): AbstractControl|null { return _find(this, path, '.'); }\r\n\r\n  /**\r\n   * Returns true if the control with the given path has the error specified. Otherwise\r\n   * returns null or undefined.\r\n   *\r\n   * If no path is given, it checks for the error on the present control.\r\n   */\r\n  getError(errorCode: string, path?: string[]): any {\r\n    const control = path ? this.get(path) : this;\r\n    return control && control._errors ? control._errors[errorCode] : null;\r\n  }\r\n\r\n  /**\r\n   * Returns true if the control with the given path has the error specified. Otherwise\r\n   * returns false.\r\n   *\r\n   * If no path is given, it checks for the error on the present control.\r\n   */\r\n  hasError(errorCode: string, path?: string[]): boolean { return !!this.getError(errorCode, path); }\r\n```\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\n\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.3.x\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [ ] Chrome (desktop) version XX\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n \r\nFor Tooling issues:\r\n- Node version: XX  <!-- run `node --version` -->\r\n- Platform:  <!-- Mac, Linux, Windows -->\r\n\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\n</code></pre>\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18164",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18164/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18164/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18164/events",
+    "html_url": "https://github.com/angular/angular/issues/18164",
+    "id": 243304465,
+    "number": 18164,
+    "title": "Override routerLink directive and handle click event of own.",
+    "user": {
+      "login": "RoshanRoyal",
+      "id": 12455816,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12455816?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RoshanRoyal",
+      "html_url": "https://github.com/RoshanRoyal",
+      "followers_url": "https://api.github.com/users/RoshanRoyal/followers",
+      "following_url": "https://api.github.com/users/RoshanRoyal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RoshanRoyal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RoshanRoyal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RoshanRoyal/subscriptions",
+      "organizations_url": "https://api.github.com/users/RoshanRoyal/orgs",
+      "repos_url": "https://api.github.com/users/RoshanRoyal/repos",
+      "events_url": "https://api.github.com/users/RoshanRoyal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RoshanRoyal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-07-17T06:17:33Z",
+    "updated_at": "2017-07-17T06:48:12Z",
+    "closed_at": null,
+    "body": "<!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[X ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\nDefault onclick of router class is called\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\nshould be able to inherit and register my routerLink directive to app.\r\n\r\n \r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\nI want to handle dynamic tab generation with routing and prefetching as resolvers for tabs.  \r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: X.Y.Z\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [x ] Chrome (desktop) version XX\r\n- [x ] Chrome (Android) version XX\r\n- [ x] Chrome (iOS) version XX\r\n- [x ] Firefox version XX\r\n- [x ] Safari (desktop) version XX\r\n- [x ] Safari (iOS) version XX\r\n- [ x] IE version XX\r\n- [x ] Edge version XX\r\n \r\nx"
+  },
+  {
+    "url": "https://api.github.com/repos/angular/angular/issues/18161",
+    "repository_url": "https://api.github.com/repos/angular/angular",
+    "labels_url": "https://api.github.com/repos/angular/angular/issues/18161/labels{/name}",
+    "comments_url": "https://api.github.com/repos/angular/angular/issues/18161/comments",
+    "events_url": "https://api.github.com/repos/angular/angular/issues/18161/events",
+    "html_url": "https://github.com/angular/angular/issues/18161",
+    "id": 243261055,
+    "number": 18161,
+    "title": "Output method decorator",
+    "user": {
+      "login": "notsonotso",
+      "id": 26680332,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26680332?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/notsonotso",
+      "html_url": "https://github.com/notsonotso",
+      "followers_url": "https://api.github.com/users/notsonotso/followers",
+      "following_url": "https://api.github.com/users/notsonotso/following{/other_user}",
+      "gists_url": "https://api.github.com/users/notsonotso/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/notsonotso/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/notsonotso/subscriptions",
+      "organizations_url": "https://api.github.com/users/notsonotso/orgs",
+      "repos_url": "https://api.github.com/users/notsonotso/repos",
+      "events_url": "https://api.github.com/users/notsonotso/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/notsonotso/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-07-16T19:36:24Z",
+    "updated_at": "2017-07-17T02:31:19Z",
+    "closed_at": null,
+    "body": "## I'm submitting a...\r\n[x] Feature request\r\n\r\n## What is the motivation / use case for changing the behavior?\r\nLess boiler plate code, hide EventEmitter details\r\n\r\n## Proposal\r\n\r\nAdd an @Output method decorator that would lower to the most suitable event emission code, currently EventEmitter.\r\n\r\nIt would take an optional binding property name, as usual.\r\n\r\n<pre><code>\r\n@Output('click') onClick() {\r\n    return 'The result';\r\n}\r\n</code></pre>\r\n\r\nWould lower to:\r\n\r\n<pre><code>\r\n@Output() __generated_property$123: EventEmitter &lt;string &gt; = new EventEmitter&lt;string&gt;();\r\n\r\nonClick() {\r\n    this.__generated_property$123.emit('The result');\r\n}\r\n</code></pre>\r\n\r\nUse-site isn't aware whether or not the @Output binding is a property or method.\r\n"
+  }
+]

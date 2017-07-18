@@ -1,0 +1,38 @@
+<div class="row" id="requestTop">
+  <div class="col-sm-12">
+    <h1 class="main-title">
+      Angular Issues Log
+    </h1>
+  </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-sm-12">
+        <div class="panel col-sm-12" id="issuesListPanel">
+            <div class="panel-heading" id="issuesListPanelHeading">
+            </div>
+                <table class="table table-striped table-hover">
+                    <thead id="issuesTableHeader">
+                        <tr>
+                            <th class="col-sm-2">Created Date</th>
+                            <th class="col-sm-2">Title</th>
+                            <th class="col-sm-4">Body</th>
+                            <th class="col-sm-2">User Login</th>
+                            <th class="col-sm-2">Assignee Login</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let issue of issues">
+                            <td class="col-sm-2">{{issue.created_at | date: 'MM/dd/yyyy'}}</td>
+                            <td class="col-sm-2">{{issue.title}}</td>
+                            <td class="col-sm-4" id="issueBody">{{issue.body}}</td>
+                            <td class="col-sm-2">{{issue.user.login}}</td>
+                            <td *ngIf="issue.assignee" class="col-sm-2">{{issue.assignee.login}}</td>
+                            <td *ngIf="!issue.assignee" class="col-sm-2"><i>No Assignee Login</i></td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+</div>
+

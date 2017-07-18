@@ -1,0 +1,21 @@
+#issuesTableHeader {
+    background-color: #4d4d4d;
+    color: #fff;
+    font-weight: 700;
+}
+
+table {
+    max-width: none;
+}
+
+.panel {
+    box-shadow: 0 1px 1px rgba(0,0,0,1);
+}
+
+#issueBody {
+    word-break: break-word;
+}
+
+.panel-footer {
+    text-align: center;
+}
